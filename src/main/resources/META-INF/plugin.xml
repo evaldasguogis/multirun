@@ -1,7 +1,7 @@
-<idea-plugin version="2">
+<idea-plugin>
     <id>com.khmelyuk.multirun</id>
-    <name>Multirun</name>
-    <version>1.9</version>
+    <name>Multirun Custom</name>
+    <version>1.10</version>
     <vendor url="http://www.khmelyuk.com">Ruslan Khmelyuk</vendor>
 
     <description>
@@ -32,6 +32,10 @@
 
     <change-notes>
         <![CDATA[
+        <p><strong>1.10</strong>:</p>
+        <ul>
+            <li>Support for IntellijIDEA 2019.1</li>
+        </ul>
         <p><strong>1.9</strong>:</p>
         <ul>
             <li>Support for IntellijIDEA 2018.1</li>
@@ -143,7 +147,7 @@
     </change-notes>
 
     <!-- please see http://confluence.jetbrains.net/display/IDEADEV/Build+Number+Ranges for description -->
-    <idea-version since-build="181.0000"/>
+    <idea-version since-build="183"/>
 
     <!-- please see http://confluence.jetbrains.net/display/IDEADEV/Plugin+Compatibility+with+IntelliJ+Platform+Products
          on how to target different products -->
